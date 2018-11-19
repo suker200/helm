@@ -687,7 +687,8 @@ central:
       service:
         type: ClusterIP
 
-        annotations: {}
+        annotations:
+          kubernetes.io/ingress.class: nginx
 
         # This allows one to point the service to an external backend.
         # This is useful for local development where one wishes to hijack
@@ -1379,7 +1380,8 @@ central:
       service:
         type: ClusterIP
 
-        annotations: {}
+        annotations:
+          kubernetes.io/ingress.class: nginx
 
         # This allows one to point the service to an external backend.
         # This is useful for local development where one wishes to hijack
@@ -2069,7 +2071,8 @@ central:
       service:
         type: ClusterIP
 
-        annotations: {}
+        annotations:
+          kubernetes.io/ingress.class: nginx
 
         # This allows one to point the service to an external backend.
         # This is useful for local development where one wishes to hijack
@@ -2759,7 +2762,8 @@ central:
       service:
         type: ClusterIP
 
-        annotations: {}
+        annotations:
+          kubernetes.io/ingress.class: nginx
 
         # This allows one to point the service to an external backend.
         # This is useful for local development where one wishes to hijack
@@ -3449,7 +3453,8 @@ central:
       service:
         type: ClusterIP
 
-        annotations: {}
+        annotations:
+          kubernetes.io/ingress.class: nginx
 
         # This allows one to point the service to an external backend.
         # This is useful for local development where one wishes to hijack
@@ -4139,7 +4144,8 @@ central:
       service:
         type: ClusterIP
 
-        annotations: {}
+        annotations:
+          kubernetes.io/ingress.class: nginx
 
         # This allows one to point the service to an external backend.
         # This is useful for local development where one wishes to hijack
@@ -4829,7 +4835,8 @@ central:
       service:
         type: ClusterIP
 
-        annotations: {}
+        annotations:
+          kubernetes.io/ingress.class: nginx
 
         # This allows one to point the service to an external backend.
         # This is useful for local development where one wishes to hijack
@@ -4892,7 +4899,8 @@ central:
         externalPort: 5678
         internalPort: 5678
 
-        annotations: {}
+        annotations:
+          kubernetes.io/ingress.class: nginx
 
         # This allows one to point the service to an external backend.
         # This is useful for local development where one wishes to hijack
@@ -4976,7 +4984,8 @@ central:
           externalPort: 8080
           internalPort: 8080
 
-          annotations: {}
+          annotations:
+            kubernetes.io/ingress.class: nginx
 
           # This allows one to point the service to an external backend.
           # This is useful for local development where one wishes to hijack
@@ -5633,7 +5642,8 @@ central:
           externalPort: 3000
           internalPort: 3000
 
-      annotations: {}
+      annotations:
+        kubernetes.io/ingress.class: nginx
 
       # This allows one to point the service to an external backend.
       # This is useful for local development where one wishes to hijack
@@ -5717,7 +5727,8 @@ central:
             externalPort: 3001
             internalPort: 3001
 
-        annotations: {}
+        annotations:
+          kubernetes.io/ingress.class: nginx
 
         # This allows one to point the service to an external backend.
         # This is useful for local development where one wishes to hijack
@@ -5837,7 +5848,8 @@ central:
             internalPort: 15353
             protocol: UDP
 
-        annotations: {}
+        annotations:
+          kubernetes.io/ingress.class: nginx
 
         # This allows one to point the service to an external backend.
         # This is useful for local development where one wishes to hijack
@@ -5960,7 +5972,8 @@ central:
           externalPort: 3007
           internalPort: 3007
 
-      annotations: {}
+      annotations:
+        kubernetes.io/ingress.class: nginx
 
       # This allows one to point the service to an external backend.
       # This is useful for local development where one wishes to hijack
@@ -6056,8 +6069,8 @@ interop-switch:
           externalPort: 8088
           internalPort: 8088
 
-      annotations: {}
-
+      annotations:
+        kubernetes.io/ingress.class: nginx
       # This allows one to point the service to an external backend.
       # This is useful for local development where one wishes to hijack
       # the communication from the service to the node layer and point
