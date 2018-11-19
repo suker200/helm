@@ -155,4 +155,5 @@ spec:
         {{- else }}
         - --{{ $key }}
         {{- end }}
+        - --ingress-class=nginx
       {{- end }}
