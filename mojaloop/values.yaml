@@ -717,8 +717,8 @@ central:
           api: central-ledger.dev.wayaafrica.com
           admin: central-ledger.dev.wayaafrica.com
         annotations:
-          nginx.ingress.kubernetes.io/rewrite-target: '/'
           kubernetes.io/ingress.class: nginx
+          # nginx.ingress.kubernetes.io/rewrite-target: '/'
           # kubernetes.io/tls-acme: "true"
         tls:
           # Secrets must be manually created in the namespace.
@@ -1409,8 +1409,8 @@ central:
         hosts:
           api: central-ledger-transfer-prepare.dev.wayaafrica.com
         annotations:
-          nginx.ingress.kubernetes.io/rewrite-target: '/'
           kubernetes.io/ingress.class: nginx
+          # nginx.ingress.kubernetes.io/rewrite-target: '/'
           # kubernetes.io/tls-acme: "true"
         tls:
           # Secrets must be manually created in the namespace.
@@ -2100,8 +2100,8 @@ central:
         hosts:
           api: central-ledger-admin-transfer.dev.wayaafrica.com
         annotations:
-          nginx.ingress.kubernetes.io/rewrite-target: '/'
           kubernetes.io/ingress.class: nginx
+          # nginx.ingress.kubernetes.io/rewrite-target: '/'
           # kubernetes.io/tls-acme: "true"
         tls:
           # Secrets must be manually created in the namespace.
@@ -2791,8 +2791,8 @@ central:
         hosts:
           api: central-ledger-transfer-position.dev.wayaafrica.com
         annotations:
-          nginx.ingress.kubernetes.io/rewrite-target: '/'
           kubernetes.io/ingress.class: nginx
+          # nginx.ingress.kubernetes.io/rewrite-target: '/'
           # kubernetes.io/tls-acme: "true"
         tls:
           # Secrets must be manually created in the namespace.
@@ -3482,8 +3482,8 @@ central:
         hosts:
           api: central-ledger-transfer-get.dev.wayaafrica.com
         annotations:
-          nginx.ingress.kubernetes.io/rewrite-target: '/'
           kubernetes.io/ingress.class: nginx
+          # nginx.ingress.kubernetes.io/rewrite-target: '/'
           # kubernetes.io/tls-acme: "true"
         tls:
           # Secrets must be manually created in the namespace.
@@ -4173,8 +4173,8 @@ central:
         hosts:
           api: central-ledger-transfer-fulfil.dev.wayaafrica.com
         annotations:
-          nginx.ingress.kubernetes.io/rewrite-target: '/'
           kubernetes.io/ingress.class: nginx
+          # nginx.ingress.kubernetes.io/rewrite-target: '/'
           # kubernetes.io/tls-acme: "true"
         tls:
           # Secrets must be manually created in the namespace.
@@ -4864,8 +4864,8 @@ central:
         hosts:
           api: central-ledger-timeout.dev.wayaafrica.com
         annotations:
-          nginx.ingress.kubernetes.io/rewrite-target: '/'
           kubernetes.io/ingress.class: nginx
+          # nginx.ingress.kubernetes.io/rewrite-target: '/'
           # kubernetes.io/tls-acme: "true"
         tls:
           # Secrets must be manually created in the namespace.
@@ -5665,8 +5665,8 @@ central:
       hosts:
         api: central-directory.dev.wayaafrica.com
       annotations:
-        nginx.ingress.kubernetes.io/rewrite-target: '/'
         kubernetes.io/ingress.class: nginx
+        nginx.ingress.kubernetes.io/rewrite-target: '/'
         # kubernetes.io/tls-acme: "true"
       tls:
         # Secrets must be manually created in the namespace.
@@ -5995,8 +5995,8 @@ central:
       hosts:
         api: central-settlement.dev.wayaafrica.com
       annotations:
-        nginx.ingress.kubernetes.io/rewrite-target: '/'
         kubernetes.io/ingress.class: nginx
+        nginx.ingress.kubernetes.io/rewrite-target: '/'
         # kubernetes.io/tls-acme: "true"
       tls:
         # Secrets must be manually created in the namespace.
@@ -6271,8 +6271,8 @@ ml-api-adapter:
           api: ml-api-adapter.dev.wayaafrica.com
 
         annotations:
-          nginx.ingress.kubernetes.io/rewrite-target: '/'
           kubernetes.io/ingress.class: nginx
+          # nginx.ingress.kubernetes.io/rewrite-target: '/'
           # kubernetes.io/tls-acme: "true"
         tls:
           # Secrets must be manually created in the namespace.
@@ -6454,8 +6454,8 @@ ml-api-adapter:
           api: ml-api-adapter-notification.dev.wayaafrica.com
 
         annotations:
-          nginx.ingress.kubernetes.io/rewrite-target: '/'
           kubernetes.io/ingress.class: nginx
+          # nginx.ingress.kubernetes.io/rewrite-target: '/'
           # kubernetes.io/tls-acme: "true"
         tls:
           # Secrets must be manually created in the namespace.

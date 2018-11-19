@@ -167,9 +167,9 @@ ingress:
   hosts:
     api: ml-api-adapter.dev.wayaafrica.com
 
-  # annotations:
+  annotations:
+    kubernetes.io/ingress.class: nginx
   #   nginx.ingress.kubernetes.io/rewrite-target: '/'
-    # kubernetes.io/ingress.class: nginx
     # kubernetes.io/tls-acme: "true"
   tls:
     # Secrets must be manually created in the namespace.
