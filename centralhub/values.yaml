@@ -51,7 +51,7 @@ config:
 
 service:
   name: http-api-and-web
-  type: ClusterIP
+  type: NodePort
   externalPort: 4001
   internalPort: 4001
 

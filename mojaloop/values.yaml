@@ -4980,7 +4980,7 @@ central:
 
         service:
           name: http-api-and-tcp-websocket
-          type: ClusterIP
+          type: NodePort
           externalPort: 8080
           internalPort: 8080
 
@@ -5635,7 +5635,7 @@ central:
       enabled: true
 
     service:
-      type: ClusterIP
+      type: NodePort
       ports:
         api:
           name: http-api
@@ -5965,7 +5965,7 @@ central:
       enabled: true
 
     service:
-      type: ClusterIP
+      type: NodePort
       ports:
         api:
           name: http-api
@@ -6062,7 +6062,7 @@ interop-switch:
         pullPolicy: Always
 
     service:
-      type: ClusterIP
+      type: NodePort
       ports:
         api:
           name: http-api
@@ -6259,7 +6259,7 @@ ml-api-adapter:
 
       service:
         name: ml-api-adapter
-        type: ClusterIP
+        type: NodePort
         externalPort: 8088
         internalPort: 8088
 
@@ -6442,7 +6442,7 @@ ml-api-adapter:
 
       service:
         name: ml-api-adapter
-        type: ClusterIP
+        type: NodePort
         externalPort: 8088
         internalPort: 8088
 
